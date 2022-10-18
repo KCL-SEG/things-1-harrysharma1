@@ -1,7 +1,7 @@
 from django.test import TestCase
 from django.core.exceptions import ValidationError
 from django.test import TestCase
-from things.models import Thing
+from .models import Thing
 
 class ModelTest(TestCase):
     def setUp(self):
